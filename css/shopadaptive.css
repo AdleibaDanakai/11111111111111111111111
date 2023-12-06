@@ -1,16 +1,26 @@
 /*==========  Desktop First  ========== */
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1208px) {
+#content2 {
+    padding: 50px 0;
+    border-radius: 1em;
+    position: absolute;
+    top: 630px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+    
 @media only screen and (max-width: 1200px) {
-    #content2 {
-        padding: 50px 0;
-        border-radius: 1em;
-        position: absolute;
-        top: 618px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-    }
-
+#content2 {
+    padding: 50px 0;
+    border-radius: 1em;
+    position: absolute;
+    top: 630px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
   }
   /* Medium Devices, Desktops */
   @media only screen and (max-width: 992px) {
@@ -19,7 +29,7 @@
         padding: 50px 0;
         border-radius: 1em;
         position: absolute;
-        top: 601px;
+        top: 630px;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
